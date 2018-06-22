@@ -56,10 +56,10 @@
         Objects and Arrays
       </header>
       <p>Some characteristics of object-based and array-based syntax in CoffeeScript.</p>
-        <ul>
-          <li>Defining each data structure does not involve <code>var, let, const</code></li>
-          <li>Commas are usually ommited between array items and object keys and values</li>
-        </ul>
+      <ul>
+        <li>Defining each data structure does not involve <code>var, let, const</code></li>
+        <li>Commas are usually ommited between array items and object keys and values</li>
+      </ul>
       <p>Some Examples of CoffeScript Syntax:</p>
       <code>items = [first second third fourth fifth]</code>
       <code>food =
@@ -74,7 +74,7 @@
       </header>
       <p>Comments are:</p>
       <ul>
-        <li>Same format as Ruby.  Single line comments are preceeded with a #.</li>
+        <li>Same format as Ruby. Single line comments are preceeded with a #.</li>
         <li>Multiple lines of comments can be encased in ### hashes in the beginning and ### at the end of the comment.
       </ul>
       <p>Syntax:</p>
@@ -110,16 +110,27 @@
       <header>
         Loops and Comprehensions
       </header>
-      <code>
-      </code>
+      <p>Characteristics of Loops and Comprehensions</p>
       <ul>
-        <li>
-        </li>
+        <li>Beautiful syntax for iterations.</li>
+        <li>Can be filtered, which is similar to Python comprehensions.</li>
+        <li>Comprehensions can iterate over objects by utilizing the keyword 'of'.</li>
+        <li>Iterations can be written on one line using the postfix form.</li>
       </ul>
       <p>
+        Some examples:
       </p>
-      <p>
-      </p>
+      <code>
+        for name in ['Ted', 'John', 'Mark']
+          alert "Release #{name}"
+      </code>
+      <code>
+        names = sam: seaborn, donna: moss
+        alert("#{first} #{last}")
+      </code>
+      <code>
+        release prisoner for prisoner in ['John', 'Paul', 'Timmy']
+      </code>
     </section>
   </main>
   <script src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script>
