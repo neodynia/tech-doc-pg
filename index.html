@@ -32,36 +32,42 @@
       <ul>
         <li>No use of curly braces or semicolons.</li>
         <li>A thin arrow is used to seperate the defining of the function and its steps.</li>
-        <li>Parameters are set equal to the function name and encased in parenthesis before the thin arrow.<li>
+        <li>Parameters are set equal to the function name and encased in parenthesis before the thin arrow.
+          <li>
       </ul>
       <p>Some examples of function syntax are:</p>
-      <code>
-        foo ->
-          console.log('bar')
-      </code>
-      <code>
+      <div id="Functions_code_one">
+        <code>
+          foo ->
+            console.log('bar')
+        </code>
+      </div>
+      <div id="Fuctions_code_two">
+        <code>
           aFunction = (name, age) ->
-            myObj =  {
+            myObj =
               'name': name
               'age': age
-              }
             console.log(myObj)
-      </code>
+        </code>
+      </div>
     </section>
     <section id="Objects_and_Arrays" class="main-section">
       <header>
         Objects and Arrays
       </header>
-      <code>
+      <p>Some characteristics of object-based and array-based syntax in CoffeeScript.</p>
+        <ul>
+          <li>Defining each data structure does not involve <code>var, let, const</code></li>
+          <li>Commas are usually ommited between array items and object keys and values</li>
+        </ul>
+      <p>Some Examples of CoffeScript Syntax:</p>
+      <code>items = [first second third fourth fifth]</code>
+      <code>food =
+              breakfast: muffin
+              lunch: bagel
+              dinner: meatloaf
       </code>
-      <ul>
-        <li>
-        </li>
-      </ul>
-      <p>
-      </p>
-      <p>
-      </p>
     </section>
     <section id="Comments" class="main-section">
       <header>
