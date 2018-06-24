@@ -37,19 +37,23 @@
         </ul>
         <p>Some examples of function syntax are:</p>
         <div id="Functions_code_one">
+          <pre>
           <code>
             foo ->
               console.log('bar')
           </code>
+        </pre>
         </div>
         <div id="Fuctions_code_two">
+          <pre>
           <code>
             aFunction = (name, age) ->
-              myObj =
+              myObj =>
                 'name': name
                 'age': age
-              console.log(myObj)
+                 console.log(myObj)
           </code>
+        </pre>
         </div>
       </section>
       <section id="Objects_and_Arrays" class="main-section">
@@ -62,12 +66,19 @@
           <li>Commas are usually ommited between array items and object keys and values</li>
         </ul>
         <p>Some Examples of CoffeScript Syntax:</p>
-        <code>items = [first second third fourth fifth]</code>
-        <code>food =
+        <pre>
+        <code>
+          items = [first second third fourth fifth]
+        </code>
+        </pre>
+        <pre>
+        <code>
+          food =
                 breakfast: muffin
                 lunch: bagel
                 dinner: meatloaf
         </code>
+        </pre>
       </section>
       <section id="Comments" class="main-section">
         <header>
@@ -79,12 +90,14 @@
           <li>Multiple lines of comments can be encased in ### hashes in the beginning and ### at the end of the comment.
         </ul>
         <p>Syntax:</p>
-        <code># This is a comment.</code>
-        <code>###
+        <pre>
+        <code>  # This is a comment.</code></pre>
+        <pre><code>
+          ###
                 Multiple line
                 Comment
-              ###
-        </code>
+          ###
+        </code></pre>
       </section>
       <section id="Conditionals" class="main-section">
         <header>
@@ -97,15 +110,20 @@
           <li>Many conditionals can be simplifed to one-liners</li>
         </ul>
         <p>Some examples:</p>
-        <code>mood = greatlyImproved if eating</code>
-        <code>if happy && knowIt
-                clapsHands()
-              else
-                showIt()
+        <pre><code>mood = greatlyImproved if eating</code></pre>
+        <pre>
+        <code>
+          if happy && knowIt
+            clapsHands()
+          else
+            showIt()
         </code>
+        </pre>
+        <pre>
         <code>
           date = if friday then sue else jill
         </code>
+        </pre>
       </section>
       <section id="Loops_and_Comprehensions" class="main-section">
         <header>
@@ -121,17 +139,23 @@
         <p>
           Some examples:
         </p>
+        <pre>
         <code>
           for name in ['Ted', 'John', 'Mark']
             alert "Release #{name}"
         </code>
+      </pre>
+        <pre>
         <code>
           names = sam: seaborn, donna: moss
           alert("#{first} #{last}")
         </code>
+      </pre>
+        <pre>
         <code>
           release prisoner for prisoner in ['John', 'Paul', 'Timmy']
         </code>
+      </pre>
       </section>
     </main>
   </div>
