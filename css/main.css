@@ -38,7 +38,7 @@ nav {
 .nav-link {
   font-size: 18px;
   font-family: Arial;
-  
+
 }
 
 
@@ -60,25 +60,28 @@ section {
   margin: 20px;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 850px) {
+  * {
+    border: 0;
+    margin: 0;
+    padding: 0;
+
+  }
   .grid-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 250px 1fr;
-    justify-items:center;
-  }
-
-  #navbar {
     display: flex;
-    flex-flow: column nowrap;
-    justify-content:space-around;
-    align-content: center;
-    grid-column: 1 / 3;
-    grid-row: 1 / 2;
+    flex-direction: column;
   }
 
-  main {
-    grid-column: 1 / 3;
-    grid-row: 2 / 3;
+  nav {
+    display: flex;
+    position: relative;
+    border: 0;
+    margin: 0;
+    padding: 0;
   }
+
+  .nav-link {
+    font-size: 12px;
+  }
+
 }
