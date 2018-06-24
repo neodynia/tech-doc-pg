@@ -25,19 +25,27 @@ nav {
   position: fixed;
   align-items: center;
   line-height: 100px;
+  border: 3px solid #000;
 }
 
 .header-navbar {
   font-size: 20px;
+  font-family: Arial;
   padding: 20px;
-  border: 5px solid #000;
+  border-bottom: 2px solid #000;
 }
 
+.nav-link {
+  font-size: 18px;
+  font-family: Arial;
+  border-bottom: solid 1px #000;
+}
 
 
 main {
     grid-column: 2 / 3;
     font-family: Arial;
+    justify-self: center;
 }
 
 .main-section header {
